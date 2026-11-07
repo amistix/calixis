@@ -1,11 +1,11 @@
 #pragma once
-#include "../expression_node.hpp"
+#include "expression_node.hpp"
 #include <cmath>
 
 namespace calixis {
 
     template<typename T>
-    class cos: public expression_node<T> {
+    class cos_node: public expression_node<T> {
     public:
         using expression_node<T>::expression_node;
     protected:
